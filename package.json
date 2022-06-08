@@ -1,0 +1,31 @@
+{
+  "name": "testing-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwekubright/Testing-Exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwekubright/Testing-Exercise/issues"
+  },
+  "homepage": "https://github.com/kwekubright/Testing-Exercise#readme",
+  "dependencies": {
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.73.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
